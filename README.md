@@ -11,10 +11,12 @@ Included Projects
 Building the Cloud Assembly
 ---------------------------
 To build the cloud assembly zip file:
+
 1. Build the AzureBatchDependenciesStorage project.
 2. Open the output folder of the AzureBatchDependenciesStorage project.
 3. Select all the DLLs (and optionally PDB files) in the output folder.
 4. Right-click and choose Send To > Compressed Folder.
+                          
 
 Building the Application Image
 ------------------------------
