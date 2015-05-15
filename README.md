@@ -21,7 +21,8 @@ To build the cloud assembly zip file:
 Building the Application Image
 ------------------------------
 To build the application image zip file:
-1.The dummy test application image ( mri-processing-dummy.zip ) is included in this github repository.
+
+1. The dummy test application image ( mri-processing-dummy.zip ) is included in this github repository.
 
 Uploading the Application to Your Batch Apps Service
 ----------------------------------------------------
