@@ -10,15 +10,17 @@ Included Projects
 
 Building the Cloud Assembly
 ---------------------------
+You need to specify the access details of Azure storage account  associated with your azure batch app service. You will find the details on how to find out this azure storage details here ( http://sarkar.azurewebsites.net/2015/03/16/uploading-large-executable-on-azure-batch-service-app-management-portal/ ).
 To build the cloud assembly zip file:
 
-1. Build the AzureBatchDependenciesStorage project.
+1. Add Azure Storage access details to DownloadFile method in TaskProcessor.cs file in  the AzureBatchDependenciesStorage project.
+2. Build the AzureBatchDependenciesStorage project.
 2. Open the output folder of the AzureBatchDependenciesStorage project.
 3. Select all the DLLs (and optionally PDB files) in the output folder.
 4. Right-click and choose Send To > Compressed Folder.
                           
 
-Building the Application Image
+Getting the Application Image
 ------------------------------
 To build the application image zip file:
 
