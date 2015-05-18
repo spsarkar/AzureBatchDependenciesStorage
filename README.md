@@ -1,5 +1,5 @@
 # AzureBatchDependenciesStorage
-A sample app demonstration of Azure Batch Apps Task Decencies and specifying Intermediate output file as Required Files
+A sample app demonstration of Azure Batch Apps Task Decencies and specifying Intermediate output file as Required Files. For detailed instructions for this project, please visit this blog ( http://sarkar.azurewebsites.net/2015/05/18/deploy-azure-batch-apps-through-batch-apps-portal/ ).
 
 Included Projects
 -----------------
