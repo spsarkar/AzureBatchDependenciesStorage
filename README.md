@@ -41,4 +41,21 @@ Uploading the Application to Your Batch Apps Service
    (Be sure to leave the version as "default".)
 10. Click Done.
                           
+Running Jobs from Azure Batch Apps portal
+----------------------------------------------------
+1. Open the Azure management portal (manage.windowsazure.com).
+2. Select Batch Services in the left-hand menu.
+3. Select your service in the list and click "Manage Batch Apps." This opens the Batch Apps management portal.
+4. Select Services in the left-hand menu.
+5. Select your service in the list and click View Details.
+6. Choose the Manage Applications tab.
+7. Click Run Jobs.
+8. Enter Job Name, select Job Type and enter any parameters your job. 
+9. Under "Select the input files for your job" choose your input file. For simplicity, this sample project requires that these two files have these names (brain.nii and tissue.nii) . The GitHub project contains a zip file ( TestInputFiles.zip ) containing two input files and those files could be used here. 
+10. Then you could start the job.
+
+Expected Result of the Application once Job is finished
+----------------------------------------------------
+1. Final Job output is a file named completion.txt which indicates that job is done
+2. Each of the four copies the content of input files to new output files ( resliced_tissue.nii, resliced_brain.nii ,skull-stripped_tissue.nii and skull-stripped_brain.nii  ).
  
